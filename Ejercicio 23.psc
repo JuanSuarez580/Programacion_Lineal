@@ -1,7 +1,8 @@
 Algoritmo sin_titulo
-	Definir piso_deseado Como Entero
+	Definir piso_deseado, piso_actual Como Entero
 	Definir pisomax,pisomin Como Entero
-	
+
+	piso_actual<-1
 	pisomax<-10
 	pisomin<-1
 	
@@ -19,3 +20,4 @@ Algoritmo sin_titulo
 		Escribir "El piso es invalido vuelva a digitar"
 	Fin Si
 FinAlgoritmo
+
