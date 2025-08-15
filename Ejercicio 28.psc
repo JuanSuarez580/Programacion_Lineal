@@ -4,6 +4,7 @@ Algoritmo sin_titulo
 	
 	Escribir "Ingrese que tipo de producto va a comprar A,V o E"
 	Leer tipo_producto
+tipo_producto<-mayuscula(tipo_producto)
 	Escribir "Que cantidad deseas comprar"
 	Leer cantidad
 
@@ -37,3 +38,4 @@ Algoritmo sin_titulo
 	Fin Si
 	
 FinAlgoritmo
+
